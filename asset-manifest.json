@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Alexan0.github.io/react-movies/static/css/main.42ca781a.css",
-    "main.js": "/Alexan0.github.io/react-movies/static/js/main.dbbed04f.js",
-    "static/media/intro-varkraft.jpg": "/Alexan0.github.io/react-movies/static/media/intro-varkraft.942628417d8955f914b9.jpg",
-    "static/media/react-header-logo.svg": "/Alexan0.github.io/react-movies/static/media/react-header-logo.fe859487be617a258ea967c482cbb132.svg",
-    "static/media/icon-search.svg": "/Alexan0.github.io/react-movies/static/media/icon-search.160882b9579dff6a72c7.svg",
-    "index.html": "/Alexan0.github.io/react-movies/index.html",
-    "static/media/icon-clock.svg": "/Alexan0.github.io/react-movies/static/media/icon-clock.03cbfc20c99c6b48da8c.svg",
-    "main.42ca781a.css.map": "/Alexan0.github.io/react-movies/static/css/main.42ca781a.css.map",
-    "main.dbbed04f.js.map": "/Alexan0.github.io/react-movies/static/js/main.dbbed04f.js.map"
+    "main.css": "/react-movies/static/css/main.367e6f56.css",
+    "main.js": "/react-movies/static/js/main.e7a48a27.js",
+    "static/media/intro-varkraft.jpg": "/react-movies/static/media/intro-varkraft.942628417d8955f914b9.jpg",
+    "static/media/react-header-logo.svg": "/react-movies/static/media/react-header-logo.fe859487be617a258ea967c482cbb132.svg",
+    "static/media/icon-search.svg": "/react-movies/static/media/icon-search.160882b9579dff6a72c7.svg",
+    "index.html": "/react-movies/index.html",
+    "static/media/icon-clock.svg": "/react-movies/static/media/icon-clock.03cbfc20c99c6b48da8c.svg",
+    "main.367e6f56.css.map": "/react-movies/static/css/main.367e6f56.css.map",
+    "main.e7a48a27.js.map": "/react-movies/static/js/main.e7a48a27.js.map"
   },
   "entrypoints": [
-    "static/css/main.42ca781a.css",
-    "static/js/main.dbbed04f.js"
+    "static/css/main.367e6f56.css",
+    "static/js/main.e7a48a27.js"
   ]
 }
