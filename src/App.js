@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import { Header } from './components';
+import { CategoriesPage, Home, NotFound, ItemMoviePage, ComingSoon } from "./pages";
+
+export const SearchContext = React.createContext();
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	const [searchValue, setSearchValue] = React.useState('');
+
+	return (
+		<BrowserRouter>
+			<div className='wrapper'>
+				<SearchContext.Provider value={{ searchValue, setSearchValue }}>
+					<Header />
+					<main className="page">
+						<Routes>
+							<Route exact path='/' element={<Home searchValue={searchValue} />} />
+							<Route exact path="/coming-soon" element={<ComingSoon searchValue={searchValue} />} />
+							<Route exact path="/categories" element={<CategoriesPage searchValue={searchValue} />} />
+							<Route exact path={'/categories/current/movie/:id'} element={<ItemMoviePage/>} />
+							<Route exact path='*' element={<NotFound />} />
+						</Routes>
+					</main>
+				</SearchContext.Provider>
+			</div>
+		</BrowserRouter>
+	);
 }
 
 export default App;
