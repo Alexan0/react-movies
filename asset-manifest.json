@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/react-movies/static/css/main.367e6f56.css",
-    "main.js": "/react-movies/static/js/main.6cc14392.js",
+    "main.js": "/react-movies/static/js/main.e7a48a27.js",
     "static/media/intro-varkraft.jpg": "/react-movies/static/media/intro-varkraft.942628417d8955f914b9.jpg",
     "static/media/react-header-logo.svg": "/react-movies/static/media/react-header-logo.fe859487be617a258ea967c482cbb132.svg",
     "static/media/icon-search.svg": "/react-movies/static/media/icon-search.160882b9579dff6a72c7.svg",
     "index.html": "/react-movies/index.html",
     "static/media/icon-clock.svg": "/react-movies/static/media/icon-clock.03cbfc20c99c6b48da8c.svg",
     "main.367e6f56.css.map": "/react-movies/static/css/main.367e6f56.css.map",
-    "main.6cc14392.js.map": "/react-movies/static/js/main.6cc14392.js.map"
+    "main.e7a48a27.js.map": "/react-movies/static/js/main.e7a48a27.js.map"
   },
   "entrypoints": [
     "static/css/main.367e6f56.css",
-    "static/js/main.6cc14392.js"
+    "static/js/main.e7a48a27.js"
   ]
 }
