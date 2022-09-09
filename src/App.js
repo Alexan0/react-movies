@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 
 import { Header } from './components';
 import { CategoriesPage, Home, NotFound, ItemMoviePage, ComingSoon } from "./pages";
@@ -10,7 +10,7 @@ function App() {
 	const [searchValue, setSearchValue] = React.useState('');
 
 	return (
-		<BrowserRouter>
+		<HashRouter>
 			<div className='wrapper'>
 				<SearchContext.Provider value={{ searchValue, setSearchValue }}>
 					<Header />
@@ -25,7 +25,7 @@ function App() {
 					</main>
 				</SearchContext.Provider>
 			</div>
-		</BrowserRouter>
+		</HashRouter>
 	);
 }
 
